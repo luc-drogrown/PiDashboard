@@ -1,0 +1,31 @@
+body {
+    background-color: gray;
+}
+
+.parent {
+    /* column-count: 2;
+    column-gap: 20px;
+    background-color: aqua;
+    padding: 10px;
+    margin: auto;
+    border: 2px solid black */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    background-color: aqua;
+    padding: 10px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.window {
+    flex:1;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
