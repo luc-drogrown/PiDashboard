@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Request, Form
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse
-from fastapi.staticFiles import StaticFiles
+from fastapi.staticfiles import StaticFiles
 from smbus2 import SMBus
 
 app = FastAPI()
